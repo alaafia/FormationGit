@@ -1,10 +1,4 @@
 public class Animal {
-    public static String getCatVoice(String animal) {
-        if (animal.equalsIgnoreCase("cat"))
-            return "Meowww !";
-        else 
-            return "I dont know";
-    }
         
     public static String getAnimalVoice(String animal) {
         if (animal.equalsIgnoreCase("bird"))
